@@ -1,0 +1,7 @@
+---
+  - name: Add users to the group
+    user:
+      name: "{{ username }}"
+      groups: "{{ groupname }}"
+      append: yes
+      state: present

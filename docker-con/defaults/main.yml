@@ -1,0 +1,4 @@
+# ---
+# container_name: 'my_container'
+# container_image: 'nginx:latest'
+# container_port: '8080'

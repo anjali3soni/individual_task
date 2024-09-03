@@ -1,0 +1,4 @@
+# ---
+# # defaults file for user-del
+# users_to_delete:
+#   - 'olduser'

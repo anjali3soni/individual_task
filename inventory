@@ -1,0 +1,7 @@
+[server]
+ans-pub
+ans-pr2
+
+[server:vars]
+ansible_private_key_file= /var/lib/jenkins/ans-key.pem
+ansble_user= ubuntu

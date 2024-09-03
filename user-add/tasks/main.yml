@@ -1,0 +1,6 @@
+---
+- name: Ensure users are present
+  user:
+    name: "{{ username }}"
+    state: present
+    shell: /bin/bash

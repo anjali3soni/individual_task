@@ -1,0 +1,5 @@
+---
+- name: Ensure users are absent
+  user:
+    name: "{{ username_del }}"
+    state: absent

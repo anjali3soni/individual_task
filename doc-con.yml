@@ -1,0 +1,8 @@
+---
+- name: Manage server setup
+  hosts: server
+  become: yes
+  become_user: root
+  become_method: sudo
+  roles:
+    - docker-con

@@ -1,0 +1,14 @@
+---
+- name: Start Docker service
+  service:
+    name: docker
+    state: started
+    enabled: yes
+
+- name: Run Docker container
+  docker_container:
+    name: "{{ container_name }}"
+    image: "{{ image_name }}"
+    state: started
+    ports:
+      - "{{ host_port }}:{{container_port }}"
